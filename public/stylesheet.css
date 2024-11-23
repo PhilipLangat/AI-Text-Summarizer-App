@@ -183,3 +183,43 @@ img {
     transform: rotate(1turn);
   }
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  textarea {
+    font-size: 16px;
+    height: 120px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .creator-section img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .creator-info p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .creator-info p {
+    font-size: 12px;
+  }
+}
